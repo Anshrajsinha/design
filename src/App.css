@@ -79,7 +79,7 @@ img {
   border: none;
   width: 109%;
   position: relative;
-  left: -4.5%;
+  left: -4.7%; 
   box-shadow: 0px 2px 4px rgb(231, 228, 228);
   height: 15%;
   padding-right: 10px;
@@ -111,4 +111,52 @@ input {
 .acc {
   color: #2d5753;
   cursor: pointer;
+}
+
+@media screen and (max-width: 450px) {
+  img {
+    width: 50%;
+    height: 100%;
+  }
+  .main {
+    width: 90vw;
+    height: 50vh;
+  }
+  .content {
+    width: 80%;
+  }
+  input {
+    font-size: 0.6rem;
+    width: 90%;
+  }
+  .btn2 {
+    width: 60%;
+    height: 14%;
+    left: 20%;
+    font-size: 0.6rem;
+  }
+  .text {
+    width: 118%;
+    left: -9%;
+    height: 20%;
+    top: -6%;
+    box-shadow: none;
+    justify-content: space-between;
+    padding-right: 0px;
+    padding-left: 2px;
+    box-shadow: 1px 1px 3px 1px rgb(199, 191, 191);
+  }
+}
+
+@media screen and (min-width: 450px) and (max-width: 900px) {
+  input {
+    font-size: 0.6rem;
+  }
+  .text {
+    box-shadow: 1px 1px 3px 1px rgb(188, 182, 182);
+    width: 112%;
+    left: -6%;
+    height: 30%;
+    top: -10%;
+  }
 }
